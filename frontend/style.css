@@ -1,0 +1,104 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#f1f8ff;
+            margin: 0 auto;
+        }
+
+        a{
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color: #1da69a;
+        }
+
+        button {
+            height: 40px;
+            width: 200px;
+            padding: 10px 20px;
+            margin: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 50px;
+            font-size: 20px;
+            font: 'monospace';
+            font-weight: 600;
+            outline: none;
+            border: none;
+        }
+        #recordButton{
+            background-color: #1da69a;
+            color: black;
+        }
+
+        #recordButton:hover{
+            background-color: darkcyan;
+        }
+        #downloadBtn{
+            background-color: slategrey;
+            color:#f1f8ff;
+        }
+        #downloadBtn:hover{
+             background-color: darkslategrey;
+        }
+
+        h1{
+            color: black;
+            padding-left: 50px;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        #second{
+            color: black;
+        }
+
+        #transcript {
+            color: black;
+            border: 5px solid #ddd;
+            padding: 20px;
+            min-height: 300px;
+            min-width: 500px;
+            max-width: 700px;
+            border-radius: 5px;
+        }
+
+        #status {
+            color: #efefef;
+            margin-top: 10px;
+        }
+        #buttons{
+            display: flex;
+            align-items: center;
+            margin-left: 60px;
+        }
+
+
+
+        /* Style the links inside the navigation bar */
+        
+
+
+@media screen and (max-width: 720px) {
+  #container{
+    margin: 5px;
+  }
+
+  #ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  #nizcare-logo{
+    margin-top: 0;
+  }
+
+
+}
+
+
+
